@@ -12,11 +12,11 @@ I am always on a lookout to collaborate with great people to build with data, hi
 
 ### Projects
 
-- Jio-Bot: A data-aggregation bot to help and visualize the extent of problems people are facing with Reliance Jio
+- [Jio-Bot](https://www.messenger.com/t/366499693719621): A data-aggregation bot to help and visualize the extent of problems people are facing with Reliance Jio
 
-- 'Blog': Analysing India's public data to derive insights
+- [Blog](https://medium.com/@vaibhavs10): Analysing India's public data to derive insights
 
-- 10 days of Deep Learning: A short crash cource into application of DL in Natural Language Processing
+- [10 days of Deep Learning](https://github.com/Vaibhavs10/10_days_of_deep_learning): A short crash cource into applications of DL in Natural Language Processing
 
 ### Contact me
 
