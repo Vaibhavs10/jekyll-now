@@ -20,4 +20,4 @@ I am always on a lookout to collaborate with great people to build with data, hi
 
 ### Contact me
 
-[vaibhavs10@gmail.com](mailto:vaibhavs10@gmail.com)
+[Vaibhavs10@gmail.com](mailto:vaibhavs10@gmail.com)
