@@ -9,7 +9,7 @@ name: Vaibhav Srivastav
 description: Data Scientist. Web Developer. Foodie.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars1.githubusercontent.com/u/18682411?v=3&u=fa1fee909fd5ecaf0bf6c80ed6a20eb7d0b404a7&s=400
+avatar: https://raw.githubusercontent.com/Vaibhavs10/vaibhavs10.github.io/master/images/v1.jpg
 
 #
 # Flags below are optional
@@ -25,7 +25,7 @@ footer-links:
   instagram:
   linkedin: vaibhavs10
   pinterest:
-  rss:
+  rss: vaibhavs10
   twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>

@@ -14,7 +14,7 @@ I am always on a lookout to collaborate with great people to build with data, hi
 
 - [Blog](https://medium.com/@vaibhavs10): Analysing India's public data to derive insights
 
-- [10 days of Deep Learning](https://github.com/Vaibhavs10/10_days_of_deep_learning): A short crash cource into applications of DL in Natural Language Processing
+- [10 days of Deep Learning](https://github.com/Vaibhavs10/10_days_of_deep_learning): A short crash course into applications of DL in Natural Language Processing
 
 ### Contact me
 
