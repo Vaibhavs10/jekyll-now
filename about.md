@@ -1,9 +1,7 @@
 ---
 layout: page
-title: About
 permalink: /about/
 ---
-
 Hey! I am a Data-Enthusiast based out of India, I love to build Data-Driven products, bots and dashboards, I recently completed my internship with [Ernst & Young, LLP](http://www.ey.com/in/en/careers/students/global-delivery-services) as a Data Analytics intern, where I analysed and semi-automated audit and transaction analysis. I have also worked with a couple of startups to build Data-Driven bots and dashboards.
 
 My core interest lies in NLP, Machine Learning and Web/ Product development
