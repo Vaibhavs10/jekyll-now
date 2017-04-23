@@ -2,19 +2,20 @@
 layout: post
 title: Analysing past 10 years of news (India)
 ---
-
 A while back, I wanted to visualise what all is being reported in India about India, in general I wanted to sense how do the people of India like their news.
-In order to answer this question I scraped past 10 years of all the news reported by reuters on their official website, for example to get past 10 years of news related to finance, I used this URL: http://in.reuters.com/news/archive/businessNews?view=page and then built a scraper to scrape the page contents, headline and category for each and every piece on the webpage, I reported the same for Technology, Business, Sports, Science and Entertainment too.
-I further preprocessed the data by:
+
+In order to answer this question I scraped past 10 years of all the news reported by reuters on their official website, for example to get past 10 years of news related to finance, I used this URL: [http://in.reuters.com/news/archive/businessNews?view=page](http://in.reuters.com/news/archive/businessNews?view=page) and then built a scraper to scrape the page contents, headline and category for each and every piece on the webpage, I did the same for Technology, Business, Sports, Science and Entertainment too.
+
+## I further preprocessed the data by:
 1. Removing stopwords
 2. Stemming
 3. bi-gram transformation
 4. Removing all HTML tags, punctuations, numbers etc.
 
-I then went on to build an LDA (Latent Dirichlet Allocation) model to visualise the clusters in the dataset (see the infographic below)
+I then went on to build an **LDA (Latent Dirichlet Allocation)** model to visualise the clusters in the dataset (see the infographic below)
 
 
-Before that, What is LDA?
+## Before that, What is LDA?
 > so lets say you have a collection of documents, like articles in a magazine. Now we want to find classify those articles into topics, but we don't know the topics. So ether we decide on a fixed number of topics and clump all the articles that are similar enough together into one topic, or we decide how similar document need to be for them to have their own topic.
 > We assume that a document will contain words from more than one topic, but we also assume that one document is mainly about one topic, so many of the words in a document will be about one topic and there won't be very many topics in one document... that's called a Dirichlet distribution.
 > Now how do we know what words go in what topics? well we don't but we try to guess. We assume that words in a document are usually about one topic and we assume that different words from a topic are usually one document. Then we put all the words into random topics and check if our assumptions hold, we check if the distribution is a Dirichlet distribution. we use the words in the topics to check the words in the documents, and we use the words in the documents to check the words in the topics. If the words don't fit in the topic distribution than we change the topic the word is in. We keep doing that until we notice that we don't change that many words and we kinda say, that's it... and we stop.
