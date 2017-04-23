@@ -23,6 +23,18 @@ According to [mexicaninDresden](https://www.reddit.com/r/MachineLearning/comment
 
 > Now how do we know what words go in what topics? well we don't but we try to guess. We assume that words in a document are usually about one topic and we assume that different words from a topic are usually one document. Then we put all the words into random topics and check if our assumptions hold, we check if the distribution is a Dirichlet distribution. we use the words in the topics to check the words in the documents, and we use the words in the documents to check the words in the topics. If the words don't fit in the topic distribution than we change the topic the word is in. We keep doing that until we notice that we don't change that many words and we kinda say, that's it... and we stop.
 
+After a lot of hit and trial, I finally found quite coherent results when I made the model using 25 topics (see below), key observations:
+- Cluster 4, 25 represent *Technology*
+- Cluster 7 represents *Asian markets*
+- Cluster 1, 18 represent *Sports*
+- Cluster 11 represents *USA*
+- Cluster 16, 14 represent *Automobile & Tech*
+
+
+You can play around with the relevancy metric to derive even deep insights :)
+
+I am looking for ideas and data to play around. Please let me know if you have any. Also do let me know if you have any comments. :D
+
 <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/bmabey/pyLDAvis/files/ldavis.v1.0.0.css">
 
 
