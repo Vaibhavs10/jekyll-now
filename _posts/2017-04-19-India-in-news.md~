@@ -16,12 +16,12 @@ I then went on to build an **LDA (Latent Dirichlet Allocation)** model to visual
 
 
 ## Before that, What is LDA?
-According to [mexicaninDresden](https://www.reddit.com/r/MachineLearning/comments/138xep/eli5_latent_dirichlet_allocation_can_you_explain/) on reddit:
 > Lets say you have a collection of documents, like articles in a magazine. Now we want to find classify those articles into topics, but we don't know the topics. So ether we decide on a fixed number of topics and clump all the articles that are similar enough together into one topic, or we decide how similar document need to be for them to have their own topic.
 
 > We assume that a document will contain words from more than one topic, but we also assume that one document is mainly about one topic, so many of the words in a document will be about one topic and there won't be very many topics in one document... that's called a Dirichlet distribution.
 
 > Now how do we know what words go in what topics? well we don't but we try to guess. We assume that words in a document are usually about one topic and we assume that different words from a topic are usually one document. Then we put all the words into random topics and check if our assumptions hold, we check if the distribution is a Dirichlet distribution. we use the words in the topics to check the words in the documents, and we use the words in the documents to check the words in the topics. If the words don't fit in the topic distribution than we change the topic the word is in. We keep doing that until we notice that we don't change that many words and we kinda say, that's it... and we stop.
+- [mexicaninDresden](https://www.reddit.com/r/MachineLearning/comments/138xep/eli5_latent_dirichlet_allocation_can_you_explain/)
 
 <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/bmabey/pyLDAvis/files/ldavis.v1.0.0.css">
 
