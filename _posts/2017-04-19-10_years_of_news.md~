@@ -1,8 +1,17 @@
 ---
 layout: post
-title: 10 years of news (India edition)
+title: Analysing past 10 years of news (India)
 ---
 
+A while back, I wanted to visualise what all is being reported in India about India, in general I wanted to sense how do the people of India like their news.
+In order to answer this question I scraped past 10 years of all the news reported by reuters on their official website, for example to get past 10 years of news related to finance, I used this URL: http://in.reuters.com/news/archive/businessNews?view=page and then built a scraper to scrape the page contents, headline and category for each and every piece on the webpage, I reported the same for Technology, Business, Sports, Science and Entertainment too.
+I further preprocessed the data by:
+1. Removing stopwords
+2. Stemming
+3. bi-gram transformation
+4. Removing all HTML tags, punctuations, numbers etc.
+
+I then went on to build an LDA (Latent Dirichlet Allocation) model to visualise the clusters in the dataset (see the infographic below)
 
 <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/bmabey/pyLDAvis/files/ldavis.v1.0.0.css">
 
