@@ -2,11 +2,18 @@
 layout: page
 permalink: /about/
 ---
-Hey! I am a Data-Enthusiast based out of India, I love to build Data-Driven products, bots and dashboards, I recently completed my internship with [Ernst & Young, LLP](http://www.ey.com/in/en/careers/students/global-delivery-services) as a Data Analytics intern, where I analysed and semi-automated audit and transaction analysis. I have also worked with a couple of startups to build Data-Driven bots and dashboards.
+Hi! I am a Data Scientist working with [Deloitte Consulting LLP](https://www2.deloitte.com/us/en/services/consulting.html), I work with Fortune Technology 10 clients to help them make data-driven (read profitable) decisions. Prior to this I have worked with startups across India to build Social Media Analytics Dashboards, Chatbots, Recommendation Engines and Forecasting Models. 
 
-My core interest lies in NLP, Machine Learning and Web/ Product development
+My core interest lie in NLP, Machine Learning/ Statistics and Product development.
 
-I am always on a lookout to collaborate with great people to build with data, hit me up if you want to know more about what I do. 
+If Data is what floats your boat, then coffee is on me! :D 
+
+### Talks
+
+- [Introduction to Natural Language Processing](https://docs.google.com/presentation/d/1IZE7R3vRvLG8KbMnWAsYKwn5HZj7W_NNqcBonu9Pl3g/edit?usp=sharing) : I spoke about how NLP can/ will change the product landscape and how one can ride the hype along.
+
+- [Data Science in Action](https://docs.google.com/presentation/d/1NeyJK966uP8DIg9npym81CIcrOlJMpNw4HUKdaS6s4o/edit?usp=sharing) : I covered the basics of Machine Learning using Recommendation Engines as an example and how to put Machine Learning in Production.
+
 
 ### Projects
 
